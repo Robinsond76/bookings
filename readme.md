@@ -1,4 +1,4 @@
-#Bookings and Reservations
+# Bookings and Reservations
 
 This is a repo for a bookings and reservation project to learn Go for fun.
 
