@@ -7,12 +7,13 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/robinsond76/bookings/pkg/config"
-	"github.com/robinsond76/bookings/pkg/handlers"
-	"github.com/robinsond76/bookings/pkg/render"
+	"github.com/robinsond76/bookings/internal/config"
+	"github.com/robinsond76/bookings/internal/handlers"
+	"github.com/robinsond76/bookings/internal/render"
 )
 
 const portNumber = "127.0.0.1:5000"
+
 var app config.AppConfig
 var session *scs.SessionManager
 
